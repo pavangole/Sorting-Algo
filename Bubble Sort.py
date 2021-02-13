@@ -13,10 +13,10 @@ def Bubble_Sort(a):
                 
 
 b = []
-if input("Enter the numbers you want to sort":
-    for i in range(int(input())):
+for i in range(int(input())):
         b.append(input()) 
 Bubble_Sort(b)
+
 
 
 
