@@ -11,12 +11,16 @@ def Bubble_Sort(a):
                 a[j], a[j+1] = a[j+1], a[j]
     return a
                 
-
+flag = True
 b = []
-for i in range(int(input())):
-        b.append(input()) 
-Bubble_Sort(b)
-
+while(flag):
+        a = input()
+        if a == "Over":
+            break 
+        else :
+            b.append(int(a))
+a = Bubble_Sort(b)
+print(a)
 
 
 
